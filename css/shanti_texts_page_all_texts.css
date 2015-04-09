@@ -1,0 +1,278 @@
+/* May want to change this name */  
+/* shanti_essays_page_all_texts */
+
+.view-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+.views-row {
+  float:left;
+  width: 100%;
+  background:white;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.views-field-title h3 i {
+  margin-right: 10px;
+}
+
+.views-field-field-general-featured-image img {
+  float:left;
+  margin-right: 25px;
+}
+
+.book-view-card-title {}
+
+.views-field-field-dc-creator-author-1,
+.views-field-field-book-author
+{
+  font-size: 16px;
+  font-style: italic;
+  color: gray;
+}
+
+.views-field-field-dc-description {
+  font-size: 14px;
+}
+
+
+/* VIEWS FILTER BAR */
+
+.view-result-count-info {
+  font-family: 'museo-sans-500',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+}
+
+#view-all-texts-switcher {
+  display: inline-block;
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  text-align: center;
+}
+
+#view-all-texts-switcher li { 
+  display: inline; 
+  list-style: none;
+  font-size: 18px;
+  padding: .25em .5em .1em;
+  margin: 0 3px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px gray;
+  background-color: white;
+}
+
+#view-all-texts-switcher li.on {
+  background-color: #EEE5EE;
+}
+
+#view-all-texts-switcher span.icon:hover {
+  cursor: pointer;
+}
+
+.view-all-texts-control-box {
+  border-top:0;
+  border-color:none;
+}
+
+.view-all-texts-control-box-row  {}
+
+.view-all-texts-control-box-cell  {}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.view-all-texts-control-box-cell-header {
+	width: 75%;
+	margin:0 auto;
+	padding-top:1em;
+}
+
+.view-all-texts-control-box-cell-filters  {
+	width: 75%;
+	margin:0 auto;
+}
+
+.view-all-texts-control-box-cell-switch  {
+	width: 75%;
+	margin:0 auto;
+	padding-top:1em;
+	display:none;
+}
+
+.view-all-texts-control-box-cell-pager  {
+	width: 75%;
+	margin:0 auto;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.view-all-texts-control-box-cell-header {
+		margin: 0;
+		padding: 2em 0;
+		width: 100%;
+	}
+
+	.view-all-texts-control-box-cell-filters  {
+		margin: 0;
+		padding: 1em 0;
+		width: 100%;
+	}
+
+	.view-all-texts-control-box-cell-switch  {
+		margin: 0;
+		padding: 2em 0;
+		width: 100%;
+		display:block;
+	}
+
+	.view-all-texts-control-box-cell-pager  {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
+ul.pager {
+  width: 100%;
+}
+
+.views-widget-filter-title input {
+  height: 24px;
+}
+
+.shanti-text .content-section {
+  padding-top: 0;
+}
+
+#edit-title-wrapper label, 
+#edit-field-book-author-value-wrapper label
+{
+  font-size: 14px;
+  width: 60px;
+}
+
+/* FAT LIST */
+
+.view-all-texts-fat-list .views-row {  
+  float: left;
+  width: 100%;
+  background: white;
+  margin: 0 0 20px;
+}
+.view-all-texts-fat-list .views-field-title h3 {            
+  font-size: 1.63em;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.view-all-texts-fat-list .views-field-field-general-featured-image img {            
+  float: left;
+  margin-right: 20px;
+  height: 110px;
+  width: 110px;
+}
+.view-all-texts-fat-list .views-field-field-dc-creator-author-1,
+.view-all-texts-fat-list .views-field-field-book-author
+{            
+  font-size: 16px;
+  font-style: italic;
+  color: gray;        
+}
+.view-all-texts-fat-list .views-field-field-dc-description {            
+  font-size: 14px;
+  overflow: scroll;
+}
+
+/* THIN LIST */
+
+.view-all-texts-thin-list .views-row {            
+  float: left;
+  width: 100%;,
+  height: 110px;
+  background: white;
+  padding-right: 20px;
+  padding-left:10px;
+  margin: 0 0 10px;
+}
+.view-all-texts-thin-list .views-field-title h3 {            
+  font-size: 1.63em; /* 18px; */
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  float:left;
+}
+.view-all-texts-thin-list .views-field-field-general-featured-image img {            
+  display:none;
+}
+.view-all-texts-thin-list .views-field-field-dc-creator-author-1,
+.view-all-texts-thin-list .views-field-field-book-author
+{            
+  font-size: 16px;
+  font-style: italic;
+  color: gray;     
+  float:left;
+  margin-top:10px;
+}
+.view-all-texts-thin-list .views-field-field-dc-date-original-year,
+.view-all-texts-thin-list .views-field-field-dc-date-publication-year
+{            
+  float:left;
+  margin-top:13px;
+}
+.view-all-texts-thin-list .views-field-field-dc-description {            
+  font-size: 12px;
+  overflow: scroll;
+  display:none;
+}
+
+/* GRID */
+
+.view-all-texts-grid .views-row {            
+  width: 48%;
+  height: 110px;
+  float: left;
+  overflow: hidden;
+  margin: 10px;
+}
+.view-all-texts-grid .views-field-title h3 {            
+  font-size: 1.63em; /* 20px; */
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.view-all-texts-grid .views-field-field-general-featured-image img {             
+  height: 110px;    
+  width: 110px;
+  margin-right: 10px;
+}
+.view-all-texts-grid .views-field-field-dc-creator-author-1,
+.view-all-texts-grid .views-field-field-book-author
+{            
+  font-size: 16px;
+  font-style: italic;
+  color: gray;        
+}
+.view-all-texts-grid .views-field-field-dc-description {            
+  font-size: 12px;
+}
+
+/* Added to fix problem of blanks caused by changes in shanti-main.css */
+.view-all-texts  .views-field.views-field-title {
+  width:100%;
+}
